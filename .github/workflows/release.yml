@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: joonvena/robot-reporter:${{ github.ref_name}}
+          tags: vikulin99/robot-reporter:${{ github.ref_name}}
